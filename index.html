@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GREEN CAFE</title>
+
+    <!-- CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- Icons Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <!-- CSS Internal -->
+    <style>
+      .card-img-top {
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .hero {
+        margin-top: 72px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-success py-3 fixed-top"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <i class="bi bi-leaf-fill"></i> GREEN C<i class="bi bi-anthropic"></i
+          >FE</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About As</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pemesanan">Reservasi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section Hero -->
+    <section class="hero py-5 bg-success-subtle">
+      <div class="container py-4">
+        <div class="row g-3 align-items-center">
+          <!-- col 1 -->
+          <div class="col-md">
+            <h1 class="text-success fs-1">
+              Kesegaran Alami & Cita Rasa Segar Setiap Hari
+            </h1>
+            <p class="text-muted fs-5">
+              Menghadirkan hidangan dan racikan kopi organik berkonsep ramah
+              lingkungan. Suasana asri dan hijau yang sempurna untuk bersantai,
+              bekerja, atau berdiskusi.
+            </p>
+
+            <div>
+              <a href="#pemesanan" type="button" class="btn btn-success"
+                >Pesan Meja</a
+              >
+              <a href="#menu" type="button" class="btn btn-outline-success">
+                Lihat Menu
+              </a>
+            </div>
+          </div>
+
+          <!-- col 2 -->
+          <div class="col-md">
+            <img src="img/cafe.jpg" alt="" class="w-100 rounded-4" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section About -->
+    <section id="about" class="about py-5">
+      <div class="container py-4">
+        <div class="text-center mb-4">
+          <h4 class="fw-bold">ABOUT US</h4>
+          <h2 class="fw-bold text-success">
+            Menyatu dengan Alam dalam Setiap Cangkir
+          </h2>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-8 text-center fs-6">
+            <p>
+              Green Café hadir dengan komitmen tinggi terhadap keberlanjutan
+              lingkungan. Kami mengolah bahan-bahan lokal pilihan serta
+              menyajikan racikan kopi dan matcha segar berstandar tinggi.
+            </p>
+            <p>
+              Setiap sudut kafe didesain dengan konsep tropis yang asri demi
+              memberikan kenyamanan maksimal bagi aktivitas harian Anda.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Menu -->
+    <section id="menu" class="menu py-5 bg-success-subtle">
+      <div class="container py-4">
+        <div class="text-center mb-4">
+          <h4 class="fw-bold">PILIHAN REKOMENDASI</h4>
+          <h2 class="fw-bold text-success">Menu Favorit Green Cafe</h2>
+        </div>
+
+        <div class="row g-3">
+          <!-- kolom 1 -->
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="img/1.jpg" class="card-img-top" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5 class="fw-bold text-success">Matcha Latte Organic</h5>
+                  <span class="fw-bold text-success">Rp 32.000</span>
+                </div>
+
+                <p class="card-text">
+                  Bubuk matcha murni impor Jepang dipadu susu segar pilihan yang
+                  lembut.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- kolom 2 -->
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="img/2.jpg" class="card-img-top" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5 class="fw-bold text-success">Avocado Coffee</h5>
+                  <span class="fw-bold text-success">Rp 35.000</span>
+                </div>
+
+                <p class="card-text">
+                  Jus alpukat mentega segar dikombinasikan dengan shot espresso
+                  manis gurih.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- kolom 3 -->
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="img/3.jpg" class="card-img-top" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5 class="fw-bold text-success">V60 Manual Brew</h5>
+                  <span class="fw-bold text-success">Rp 30.000</span>
+                </div>
+
+                <p class="card-text">
+                  Seduhan filter manual dari biji arabika organik dengan catatan
+                  rasa segar.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- kolom 4 -->
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="img/4.jpg" class="card-img-top" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5 class="fw-bold text-success">Espresso Double</h5>
+                  <span class="fw-bold text-success">Rp 22.000</span>
+                </div>
+
+                <p class="card-text">
+                  Ekstraksi pekat biji arabika pilihan dengan aroma kaya dan
+                  intens.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- kolom 5 -->
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="img/5.jpg" class="card-img-top" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5 class="fw-bold text-success">Butter Croissant</h5>
+                  <span class="fw-bold text-success">Rp 24.000</span>
+                </div>
+
+                <p class="card-text">
+                  Pastry renyah beraroma mentega gurih, dipanggang segar setiap
+                  pagi.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- kolom 6 -->
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="img/6.jpg" class="card-img-top" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5 class="fw-bold text-success">Choco Lava Cake</h5>
+                  <span class="fw-bold text-success">Rp 35.000</span>
+                </div>
+
+                <p class="card-text">
+                  Kue cokelat lembut dengan isian cokelat lumer hangat di bagian
+                  tengah.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Reservasi -->
+    <section id="pemesanan" class="reservasi py-5">
+      <div class="container p-4">
+        <div class="text-center mb-4">
+          <h5 class="fw-bold">RESERVASI MEJA</h5>
+          <h2 class="fw-bold text-success">Amankan Tempat Favorit Anda</h2>
+          <p class="fs-5 text-muted">
+            Isi form berikut untuk melakukan pemesanan tempat dengan cepat.
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-6 bg-success-subtle p-5 rounded-4">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama Lengkap</label>
+              <input
+                type="text"
+                class="form-control"
+                id="nama"
+                placeholder="isi nama anda"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="wa" class="form-label">Nama WhatsApp</label>
+              <input
+                type="number"
+                class="form-control"
+                id="wa"
+                placeholder="isi no WhatsApp anda"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="tgl" class="form-label">Tanggal & Waktu</label>
+              <input
+                type="datetime-local"
+                class="form-control"
+                id="tgl"
+                placeholder="isi no WhatsApp anda"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="tgl" class="form-label">Tanggal & Waktu</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Jumlah Orang</option>
+                <option value="1">1-2 Orang</option>
+                <option value="2">3-5 Orang</option>
+                <option value="3">Lebih dari 5 Orang</option>
+              </select>
+            </div>
+
+            <button type="button" class="btn btn-success w-100">
+              Konfirmasi Reservasi
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Lokasi -->
+    <section class="lokasi py-5 bg-success-subtle">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-md-4">
+            <h4 class="text-success">Green Café</h4>
+            <p class="text-muted fs-6">
+              Tempat terbaik menikmati racikan minuman dan hidangan organik
+              dengan suasana tenang, nyaman, dan asri.
+            </p>
+
+            <div class="">
+              <h6>Jam Operasional</h6>
+              <p class="text-muted fs-6">Senin - Jumat: 08.00 - 23.00 WIB</p>
+              <p class="text-muted fs-6">Sabtu - Minggu:: 08.00 - 23.00 WIB</p>
+            </div>
+            <div class="">
+              <h6>Lokasi & Kontak</h6>
+              <p class="text-muted fs-6">Jl. Umbulharjo No. 12, Yogyakarta</p>
+              <p class="text-muted fs-6">+62895413909591</p>
+            </div>
+          </div>
+
+          <div class="col-md-8">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.888215939461!2d110.37861750959274!3d-7.801657792186109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a579ceebe1279%3A0x7808ad25aa525803!2sSMTI%20Yogyakarta%20Vocational%20High%20School!5e0!3m2!1sen!2sid!4v1790816116285!5m2!1sen!2sid"
+              height="300"
+              class="w-100 rounded-3"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="text-center text-white p-3 bg-success">
+        2026 | Build By Faris Alfianto
+      </div>
+    </footer>
+
+    <!-- JS Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
